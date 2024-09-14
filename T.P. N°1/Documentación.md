@@ -86,13 +86,13 @@ Requisitos:
 - Los aeropuertos tienen un código único, un nombre y una ciudad.
 ### Clases identificadas
 - Vuelos
-- Clientes
+- Cliente
 - Reserva
 - Aeropuerto
-- Aereolinea
+- Aerolinea
 - Avion
 
-### Clase Vuelos
+### Clase Vuelo
 #### Atributos
 - nroVuelo
 - aerolinea
@@ -101,4 +101,43 @@ Requisitos:
 - avion
 #### Métodos
 - asociarAvion(unAvion : Avion)
-- 
+- asociarAerolinea(unaAerolinea: Aerolinea)
+
+### Clase Cliente
+#### Atributos
+- nroCliente
+- reservas
+#### Métodos
+- realizarReserva(nroAsiento : int)
+
+### Clase Reserva
+#### Atributos
+- nroConfirmacion
+- cliente
+- fechaReserva
+- asientoReservado
+- vuelo
+#### Métodos
+- asociarVuelo(unVuelo : Vuelo)
+
+### Clase Aeropuerto
+#### Atributos
+- codigo
+- nombre
+- ciudad
+#### Métodos
+
+### Clase Aerolinea
+#### Atributos
+- codigo
+- nombre
+#### Métodos
+
+### Clase Avion
+#### Atributos
+- nroAvion
+- modelo
+- aerolinea
+- capMaxima
+#### Métodos
+- realizarReserva(nroAsiento : int)
