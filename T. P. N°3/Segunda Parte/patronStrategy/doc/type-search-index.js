@@ -1,0 +1,1 @@
+typeSearchIndex = [{"l":"All Classes and Interfaces","u":"allclasses-index.html"},{"p":"<Unnamed>","l":"App"},{"p":"edu.unam.modelo","l":"EnvioExpreso"},{"p":"edu.unam.modelo","l":"EnvioInternacional"},{"p":"edu.unam.modelo","l":"EnvioRegular"},{"p":"edu.unam.modelo","l":"MetodoEnvio"},{"p":"edu.unam.modelo","l":"Pedido"}];updateSearchResults();
